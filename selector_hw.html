@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>  
+    <title>CSS Selecors</title>
+
+    <style>
+        /*div  p {
+            color: rgb(11, 47, 91);
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }*/
+
+
+
+        /*Combinator selectors(children)*/
+
+        div > p {
+            color: rgb(100, 227, 100);
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /*Next sibling combinator(the one immediately next to the child group)*/
+
+        div + p {
+            color: rgb(227, 20, 22);
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /*Subsequent sibling combinator(These are the lines after the parent div)*/
+        div ~ p {
+            color: rgb(255, 100, 255);
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <div id="p1", class="pink">
+        <p>Paragraph 1. Not in a div.</p>
+        <p>Paragraph 2. Not in a div.</p>
+        <p>Paragraph 3. Not in a div.</p>
+        <div>
+        <p>Paragraph 4. Not in a div.</p>
+        <p>Paragraph 5. Not in a div.</p>
+        </div>
+    </div>
+ 
+    <p>Paragraph 6. Not in a div.</p>
+    <p>Paragraph 7. Not in a div.</p>
+
+    <!--css Pseudo - classes example -->
+
+
+</body>
+</html>

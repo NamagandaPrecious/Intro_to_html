@@ -1,0 +1,48 @@
+a:link{
+    color:rgb(100, 227, 100);
+    
+}
+
+
+a:hover{
+    color: rgb(12, 225, 225);
+    font-size: 1.1em;
+   /* font-weight: 200px;
+    text-decoration: none;
+    text-align: center;*/
+}
+a:active{
+    color: salmon;
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: blueviolet;
+}
+/*hovered over*/
+li:hover{
+    background-color: rgb(255, 100, 255);
+}
+
+/*not hovered over*/
+li:not(:hover){
+    background-color: rgb(216, 207, 216);
+}
+
+/*nth child pseudo class*/
+li:nth-child(){
+    background-color: rgb(255, 100, 255);
+ 
+
+}
+li:nth-child(1){
+    background-color: rgb(255, 100, 200);
+    
+}
+/*for even numbers*/
+li:nth-child(even){
+    background-color: rgb(80, 80, 80
+    );
+    color: white;
+    
+}
